@@ -1,7 +1,7 @@
-package by.ustsinovich.minmaxclusteranalysis.view;
+package by.ustsinovich.maximinclusteranalysis.view;
 
-import by.ustsinovich.minmaxclusteranalysis.model.Cluster;
-import by.ustsinovich.minmaxclusteranalysis.model.Point;
+import by.ustsinovich.maximinclusteranalysis.model.Cluster;
+import by.ustsinovich.maximinclusteranalysis.model.Point;
 import javafx.scene.chart.ScatterChart;
 import javafx.scene.chart.XYChart;
 

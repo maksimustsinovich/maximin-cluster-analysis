@@ -1,4 +1,4 @@
-package by.ustsinovich.minmaxclusteranalysis;
+package by.ustsinovich.maximinclusteranalysis;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -15,7 +15,7 @@ public class MainApplication extends Application {
 
         scene.getStylesheets().add(String.valueOf(MainApplication.class.getResource("style/main-view.css")));
 
-        stage.setTitle("Minmax cluster analysis");
+        stage.setTitle("Maximin cluster analysis");
         stage.setResizable(false);
         stage.setMaximized(false);
         stage.setScene(scene);

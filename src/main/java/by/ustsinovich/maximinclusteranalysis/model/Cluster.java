@@ -1,4 +1,4 @@
-package by.ustsinovich.minmaxclusteranalysis.model;
+package by.ustsinovich.maximinclusteranalysis.model;
 
 import java.util.ArrayList;
 import java.util.List;

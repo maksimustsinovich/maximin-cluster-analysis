@@ -1,10 +1,10 @@
-package by.ustsinovich.minmaxclusteranalysis.controller;
+package by.ustsinovich.maximinclusteranalysis.controller;
 
-import by.ustsinovich.minmaxclusteranalysis.model.Cluster;
-import by.ustsinovich.minmaxclusteranalysis.model.Point;
-import by.ustsinovich.minmaxclusteranalysis.utils.ClusteringUtils;
-import by.ustsinovich.minmaxclusteranalysis.utils.PointsUtils;
-import by.ustsinovich.minmaxclusteranalysis.view.MainView;
+import by.ustsinovich.maximinclusteranalysis.model.Cluster;
+import by.ustsinovich.maximinclusteranalysis.model.Point;
+import by.ustsinovich.maximinclusteranalysis.utils.ClusteringUtils;
+import by.ustsinovich.maximinclusteranalysis.utils.PointsUtils;
+import by.ustsinovich.maximinclusteranalysis.view.MainView;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.chart.ScatterChart;
@@ -36,8 +36,8 @@ public class MainController {
 
         List<Point> points = PointsUtils.initializePointsListByRandom(pointsNum, maxAbscissa, maxOrdinate);
 
-//        List<Cluster> clusters = ClusteringUtils.clusterizeByKMeans(clustersNum, points);
+        List<Cluster> clusters = ClusteringUtils.clusterizeByMaximin(points);
 
-//        view.updateChart(clusters);
+        view.updateChart(clusters);
     }
 }

@@ -1,4 +1,4 @@
-package by.ustsinovich.minmaxclusteranalysis.model;
+package by.ustsinovich.maximinclusteranalysis.model;
 
 import static java.util.FormatProcessor.FMT;
 

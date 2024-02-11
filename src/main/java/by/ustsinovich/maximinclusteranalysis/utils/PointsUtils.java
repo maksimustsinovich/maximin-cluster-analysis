@@ -1,6 +1,6 @@
-package by.ustsinovich.minmaxclusteranalysis.utils;
+package by.ustsinovich.maximinclusteranalysis.utils;
 
-import by.ustsinovich.minmaxclusteranalysis.model.Point;
+import by.ustsinovich.maximinclusteranalysis.model.Point;
 
 import java.util.ArrayList;
 import java.util.List;

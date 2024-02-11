@@ -6,7 +6,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0"
       prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="by.ustsinovich.minmaxclusteranalysis.controller.MainController">
+      fx:controller="by.ustsinovich.maximinclusteranalysis.controller.MainController">
     <ScatterChart fx:id="scPoints" layoutX="20.0" layoutY="40.0" prefHeight="600.0" prefWidth="600.0">
         <xAxis>
             <NumberAxis side="BOTTOM"/>
