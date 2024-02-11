@@ -1,0 +1,54 @@
+.chart-symbol { /* solid circle */
+    -fx-background-radius: 0px;
+    -fx-padding: 5px;
+    -fx-shape: "M5,0 L10,9 L5,18 L0,9 Z";
+    -fx-background-color: #000000;
+}
+
+.default-color0.chart-symbol {
+    -fx-background-color: #800000;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.default-color1.chart-symbol {
+    -fx-background-color: #006400;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.default-color2.chart-symbol {
+    -fx-background-color: #0000FF;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.default-color3.chart-symbol {
+    -fx-background-color: #4B0082;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.default-color4.chart-symbol {
+    -fx-background-color: #556B2F;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.default-color5.chart-symbol {
+    -fx-background-color: #C71585;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.default-color6.chart-symbol {
+    -fx-background-color: #008080;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.default-color7.chart-symbol {
+    -fx-background-color: #8B4513;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}

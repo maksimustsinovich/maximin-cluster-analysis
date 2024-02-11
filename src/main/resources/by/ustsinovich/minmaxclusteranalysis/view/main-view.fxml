@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0"
+      prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="by.ustsinovich.minmaxclusteranalysis.controller.MainController">
+    <ScatterChart fx:id="scPoints" layoutX="20.0" layoutY="40.0" prefHeight="600.0" prefWidth="600.0">
+        <xAxis>
+            <NumberAxis side="BOTTOM"/>
+        </xAxis>
+        <yAxis>
+            <NumberAxis side="LEFT"/>
+        </yAxis>
+    </ScatterChart>
+    <ToolBar prefHeight="40.0" prefWidth="640.0">
+        <Label text="Points num:"/>
+        <Spinner fx:id="spnPointsNum" amountToStepBy="1000" initialValue="10000" max="100000" min="1000"
+                 prefHeight="25.0" prefWidth="80.0"/>
+        <Label text="Max X:"/>
+        <Spinner fx:id="spnMaxAbscissa" amountToStepBy="128" initialValue="256" max="512" min="128" prefHeight="25.0"
+                 prefWidth="80.0"/>
+        <Label text="Max Y:"/>
+        <Spinner fx:id="spnMaxOrdinate" amountToStepBy="128" initialValue="256" max="512" min="128" prefHeight="25.0"
+                 prefWidth="80.0"/>
+        <Button fx:id="btnClusterize" mnemonicParsing="false" onAction="#onBtnClusterizeAction" text="Clusterize!"/>
+    </ToolBar>
+</Pane>
