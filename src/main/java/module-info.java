@@ -1,6 +1,7 @@
 module by.ustsinovich.kmeansclusteranalysis {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
     opens by.ustsinovich.maximinclusteranalysis to javafx.fxml;

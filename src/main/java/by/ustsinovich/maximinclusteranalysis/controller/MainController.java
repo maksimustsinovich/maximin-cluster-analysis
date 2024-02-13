@@ -36,7 +36,9 @@ public class MainController {
 
         List<Point> points = PointsUtils.initializePointsListByRandom(pointsNum, maxAbscissa, maxOrdinate);
 
-        List<Cluster> clusters = ClusteringUtils.clusterizeByMaximin(points);
+//        List<Cluster> clusters = ClusteringUtils.clusterizeByMaximin(points);
+
+        var clusters = ClusteringUtils.clusterizeByMaximinWithIntermediateResults(points);
 
         view.updateChart(clusters);
     }
